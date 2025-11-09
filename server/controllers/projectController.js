@@ -58,7 +58,7 @@ export const createProject = async (req, res) => {
             where: { id: project.id },
             include: {
                 members: { include: { user: true } },
-                task: { include: { assignee: true, comments: { include: { user: true } } } },
+                tasks: { include: { assignee: true, comments: { include: { user: true } } } },
                 owner: true
             }
         })
@@ -76,7 +76,7 @@ export const createProject = async (req, res) => {
 export const updateProject = async (req, res) => {
     try {
         const { userId } = await req.auth();
-        const { workspaceId, description, name, status, start_date, end_date, team_members, team_lead, progress, priority } = req.body;
+        const { id, workspaceId, description, name, status, start_date, end_date, progress, priority } = req.body;
 
         // check if user has admin role for workspace
         const workspace = await prisma.workspace.findUnique({

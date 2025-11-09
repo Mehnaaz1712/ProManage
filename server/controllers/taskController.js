@@ -5,7 +5,7 @@ import { inngest } from "../inngest/index.js";
 export const createTask = async (req, res) => {
     try {
         const { userId } = await req.auth();
-        const { projectId, title, description, type, status, priority, assigneeId, due_date } = res.body;
+        const { projectId, title, description, type, status, priority, assigneeId, due_date } = req.body;
         const origin = req.get('origin')
 
         // check if user has admin role for project
@@ -27,6 +27,7 @@ export const createTask = async (req, res) => {
                 projectId,
                 title,
                 description,
+                type,
                 priority,
                 assigneeId,
                 status,
@@ -100,7 +101,7 @@ export const deleteTask = async (req, res) => {
             where: { id: { in: taskIds } }
         })
 
-        if (tasks.length == 0) {
+        if (tasks.length === 0) {
             return res.status(404).json({ message: "Task not found" });
         }
 
