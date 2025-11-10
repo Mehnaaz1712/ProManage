@@ -236,8 +236,3 @@ B.Tech CSE (AI) @ IGDTUW
 📧 [mehnaazansari3@gmail.com](mailto:mehnaazansari3@gmail.com)
 🌐 [LinkedIn](https://www.linkedin.com/in/mehnaaz-ansari) | [GitHub](https://github.com/Mehnaaz1712)
 
-```
-
-
-If you say “add badges,” I’ll update the README with a stylish badge header section (looks amazing in your repo!).
-```
