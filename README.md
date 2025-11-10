@@ -5,7 +5,7 @@
 ---
 
 ## 🚀 Live Demo
-👉 [(https://pro-manage-zeta.vercel.app/)]((https://pro-manage-zeta.vercel.app/))  
+👉 [https://pro-manage-zeta.vercel.app/](https://pro-manage-zeta.vercel.app/)
 
 ---
 
@@ -169,12 +169,12 @@ Now open 👉 **[http://localhost:5173/](http://localhost:5173/)** to view the a
 
 ## 🌈 Screenshots
 
-| Dashboard                                         | Projects                                         | Task Details                                         |
-| ------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------------- |
-| ![Dashboard](<img width="1908" height="912" alt="Dashboard ProManage" src="https://github.com/user-attachments/assets/6709b72e-2af9-4e61-9675-94a228185096" />
-) | ![Projects](<img width="1858" height="722" alt="Projects ProManage" src="https://github.com/user-attachments/assets/cc970f96-cb2c-4f42-b09c-c072526525e5" />
-) | ![Task Details](<img width="1803" height="800" alt="Task Details ProManage" src="https://github.com/user-attachments/assets/15777342-f7c2-493a-ad81-c46b4a6ace53" />
-) |
+Dashboard
+<img width="1908" height="912" alt="Dashboard ProManage" src="https://github.com/user-attachments/assets/6709b72e-2af9-4e61-9675-94a228185096" />
+Projects
+<img width="1858" height="722" alt="Projects ProManage" src="https://github.com/user-attachments/assets/cc970f96-cb2c-4f42-b09c-c072526525e5" />
+Task Details
+<img width="1803" height="800" alt="Task Details ProManage" src="https://github.com/user-attachments/assets/15777342-f7c2-493a-ad81-c46b4a6ace53" />
 
 ---
 
