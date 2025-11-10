@@ -1,6 +1,6 @@
 # 🧩 ProManage
 
-> A collaborative workspace for modern teams — streamline your projects, track tasks, analyze performance, and stay organized with real-time collaboration.
+ A collaborative workspace for modern teams — streamline your projects, track tasks, analyze performance, and stay organized with real-time collaboration.
 
 ---
 
